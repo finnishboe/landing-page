@@ -125,7 +125,39 @@ img[src=""]{
     margin: 0;
     padding-right: 30px;    
 }
+/* Call to action */
+.call-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.call-box{
+    display:flex;
+    max-height: 90px;
+    max-width: 700px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    gap: 45px;
+    align-items: center;;
+    padding: 20px 60px;
+}
+.call-info > h2,p{
+    margin: 0;
+}
 
+#sign-up{
+    cursor: pointer;
+    padding: 8px 28px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    max-height: 40px;
+    font-size: 16px;
+    font-weight: 200;
+}
 /* Footer */
 
 .footer{
