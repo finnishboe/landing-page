@@ -1,3 +1,4 @@
+/* Set the display of the body to flex */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -5,6 +6,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* Header */
+
 .header{
     height: 72px;
     background-color: #1F2937;
@@ -16,6 +20,7 @@ body {
     align-items: center;
     padding: 0 32px;
 }
+
 .links{
     display: flex;
     gap: 20px;
@@ -23,28 +28,34 @@ body {
     font-weight: 300; 
 
 }
+/* Hero container */
+/* Review the hero part*/
 .hero {
     display: flex;
     padding: 60px;
     background-color: #1F2937;
     color: #F9FAF8;
-    justify-content: space-around
+    justify-content: space-around;
 
 }
-.hero > h1 {
+.hero-box > h1{
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
-.hero1 {
+.hero-box > p {
+    font-size: 15px;
+    font-weight: 150;
+}
+
+.hero-box {
     flex: 0 0 400px;
 }
 .hero2 {
     width: 500px;
     height: 300px;
     background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 .image1{
     width: 100%;
@@ -58,4 +69,71 @@ button{
     background-color: royalblue;
     border: 1px solid royalblue;
     color: white;
+}
+
+/* Second container */
+
+.mid-header{
+    text-align: center;
+
+}
+.mid-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 300px;
+
+}
+img[src=""]{
+    display: none;
+}
+.item {
+    max-width: 160px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+.mid-box{
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+/* Quote */
+.lower-container {
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+.quote-container{
+    max-width: 600px;
+    max-height: 300px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+    margin: 0;
+}
+.author{
+    font-size: 16px;
+    text-align: end;
+    margin: 0;
+    padding-right: 30px;    
+}
+
+/* Footer */
+
+.footer{
+    display:flex;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    height: 40px;
+    align-items: center;
+
 }
