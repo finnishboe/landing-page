@@ -51,12 +51,16 @@ body {
 .hero-box {
     flex: 0 0 400px;
 }
+.hero-box > p{
+    margin: 20px 0;
+}
 .hero2 {
     width: 500px;
     height: 300px;
     background-color: gray;
 
 }
+
 .image1{
     width: 100%;
     height: 100%;
@@ -69,6 +73,7 @@ button{
     background-color: royalblue;
     border: 1px solid royalblue;
     color: white;
+
 }
 
 /* Second container */
@@ -88,6 +93,11 @@ button{
 }
 img[src=""]{
     display: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .item {
     max-width: 160px;
